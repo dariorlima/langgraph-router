@@ -1,5 +1,5 @@
 [project]
-name = "langflow-router"
+name = "langgraph-router"
 version = "1.0.0"
 description = "Classification and routing layer for LangGraph agents"
 authors = [{ name="Dário Ribeiro", email="root@darioribeiro.com" }]

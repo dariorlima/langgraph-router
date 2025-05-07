@@ -1,11 +1,11 @@
 
 from langgraph.graph import StateGraph, START, END
 
-from langflow_router.core.agents import query_agent_factory
-from langflow_router.core.composer import format_response_factory
-from langflow_router.core.router import route_query_factory
-from langflow_router.models.state import State
-from langflow_router.utils.logging import setup_logger
+from langgraph_router.core.agents import query_agent_factory
+from langgraph_router.core.composer import format_response_factory
+from langgraph_router.core.router import route_query_factory
+from langgraph_router.models.state import State
+from langgraph_router.utils.logging import setup_logger
 
 logger = setup_logger('graph')
 

@@ -1,10 +1,10 @@
 from langchain_core.prompts import ChatPromptTemplate
 from pathlib import Path
-from langflow_router.models.state import State
+from langgraph_router.models.state import State
 from langchain_aws import ChatBedrockConverse
 from pydantic import BaseModel, Field
 
-from langflow_router.utils.logging import setup_logger
+from langgraph_router.utils.logging import setup_logger
 
 logger = setup_logger('Router')
 

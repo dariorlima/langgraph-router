@@ -2,10 +2,10 @@ import os
 
 from langchain_core.messages import HumanMessage
 
-from langflow_router.core.graph import build_graph
+from langgraph_router.core.graph import build_graph
 from dotenv import load_dotenv
 
-from langflow_router.utils.logging import setup_logger
+from langgraph_router.utils.logging import setup_logger
 
 load_dotenv()
 
