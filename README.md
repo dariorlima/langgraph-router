@@ -1,4 +1,4 @@
-# Langflow Router
+# Langgraph Router
 
 This project demonstrates how to dynamically build and invoke an agent-routing graph using `LangGraph` and LangChain components. It simulates a multi-agent system where each agent specializes in a unique domain (e.g., cooking, tech, anime, wellness).
 
